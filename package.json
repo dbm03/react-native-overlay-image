@@ -1,5 +1,5 @@
 {
-  "name": "react-native-image-overlay",
+  "name": "react-native-overlay-image",
   "version": "1.0.0",
   "description": "Image overlay with transparent background that hides when you tap outside",
   "main": "./src/ImageModal.jsx",
