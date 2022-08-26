@@ -19,14 +19,14 @@ const styles = StyleSheet.create({
     },
 })
 
-const ImageModal = ({
-    source, buttonStyle, modalStyle, zoomedImageStyle,
+const ImageOverlay = ({
+    source, imageButtonStyle, modalStyle, zoomedImageStyle,
 }) => {
     // when true, shows a big avatar image on top of everything
     // tapping outside the image hides it
     const [visible, setVisible] = useState(false)
 
-    const button = [styles.buttonDefault, buttonStyle]
+    const imageButton = [styles.buttonDefault, imageButtonStyle]
     const zoomedImage = [styles.zoomedAvatar, zoomedImageStyle]
 
     return (
@@ -37,11 +37,11 @@ const ImageModal = ({
             <TouchableOpacity onPress={() => { setVisible(true) }}>
                 <Image
                     source={source}
-                    style={button}
+                    style={imageButton}
                 />
             </TouchableOpacity>
         </View>
     )
 }
 
-export default ImageModal
+export default ImageOverlay
