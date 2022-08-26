@@ -14,7 +14,7 @@ Try it yourself on this [Expo Snack](https://snack.expo.dev/@barrarroso/overlayi
 
 ## Installation
 ```bash
-npm install --save react-native-image-overlay
+npm install --save react-native-overlay-image
 ```
 
 ## How to use
