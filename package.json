@@ -1,0 +1,35 @@
+{
+  "name": "react-native-image-overlay",
+  "version": "1.0.0",
+  "description": "Image overlay with transparent background that hides when you tap outside",
+  "main": "./src/ImageModal.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src/**/*.{js,jsx} --no-error-on-unmatched-pattern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barrarroso/react-native-image-overlay.git"
+  },
+  "author": "barrosodavid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Barrarroso/react-native-image-overlay/issues"
+  },
+  "homepage": "https://github.com/Barrarroso/react-native-image-overlay#readme",
+  "peerDependencies": {
+    "react": "17.0.2",
+    "react-native": "0.68.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-react": "^7.31.0",
+    "eslint-plugin-react-native": "^4.0.0"
+  }
+}
