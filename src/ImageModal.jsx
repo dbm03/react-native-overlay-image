@@ -36,7 +36,7 @@ const ImageModal = ({
             </Modal>
             <TouchableOpacity onPress={() => { setVisible(true) }}>
                 <Image
-             source={source}
+                    source={source}
                     style={button}
                 />
             </TouchableOpacity>
