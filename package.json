@@ -11,6 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/Barrarroso/react-native-image-overlay.git"
   },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "image-backdrop",
+    "image-modal",
+    "image-overlay"
+  ],
   "author": "barrosodavid",
   "license": "MIT",
   "bugs": {
