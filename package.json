@@ -2,7 +2,7 @@
   "name": "react-native-overlay-image",
   "version": "2.1.0",
   "description": "Image overlay with transparent background that hides when you tap outside",
-  "main": "./src/ImageModal.jsx",
+  "main": "./src/ImageOverlay.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src/**/*.{js,jsx} --no-error-on-unmatched-pattern"
