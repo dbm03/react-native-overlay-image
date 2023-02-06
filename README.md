@@ -56,4 +56,4 @@ using CSS rgba() with an opacity between 0 and 1
 ## Contribute
 You are welcome to create a pull request with any improvement, bugfix or documentation.
 
-Component tested on iOS 15 using Expo SDK 45 and React Native version 0.68.2
+Component tested on iOS 16 using Expo SDK 47 and React Native version 0.70.5
